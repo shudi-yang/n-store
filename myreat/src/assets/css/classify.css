@@ -1,0 +1,58 @@
+#classify{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 0 .8rem;
+    background: #f6f6f6
+  }
+ .classify_list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .2rem .2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+ .classify_list li {
+    width: 2.9rem;
+    height: 4.1rem;
+    box-sizing: border-box;
+    padding: 0 .1rem;
+    margin-bottom: .2rem;
+    background: #fff;
+  }
+ .classify_list li .imgBox {
+    width: 100%;
+    height: 2.7rem;
+    margin: .1rem 0;
+  }
+ .classify_list li .imgBox img {
+    width: 2.68rem;
+    height: 2.68rem;
+    border: .02rem #dcdcdc solid;
+  }
+ .classify_list li .name {
+    width: 100%;
+    height: .6rem;
+    text-align: left;
+    font-size: .22rem;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+ .classify_list li .box {
+    width: 100%;
+    height: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #95262c;
+  }
+ .classify_list li .box img.add2cart{
+   width: .4rem;
+   height: .4rem;
+  }

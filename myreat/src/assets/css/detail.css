@@ -1,0 +1,111 @@
+#detail {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: .8rem;
+    background: #f6f6f6;
+  } 
+  .detail_container{
+      width: 100%;
+  }
+  .detail_container .goodimg{
+      width: 6.4rem;
+      height: 6.4rem;
+      display: block;
+      margin: 0 auto;
+  
+  }
+  .detail_container h3{
+      margin-bottom: .15rem;
+      text-align: left;
+      line-height: .36rem;
+      font-size: .3rem;
+  }
+  .detail_container h4{
+      margin-bottom: .15rem;
+      text-align: left;
+      line-height: .36rem;
+      font-size: .3rem;
+      color: #95262C;
+  }
+  .detail_container p{
+      margin-bottom: .15rem;
+      text-align: left;
+      line-height: .36rem;
+      font-size: .22rem;
+      color: #95262C;
+  }
+  #detail_btns{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .8rem;
+    z-index: 566;
+    display: flex;
+    background: #fff;
+  }
+  #detail_btns #serve {
+    box-sizing: border-box;
+    border-right: .01rem #c1bfc0 solid;
+    width: .78rem;
+    height: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  #detail_btns #serve img{
+      display: block;
+      width: .36rem;
+  }
+  #detail_btns #cart {
+    width: .78rem;
+    height: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  #detail_btns #cart img {
+    height: .6rem;
+    width: .48rem;
+  }
+  
+  #detail_btns #cart .cartNum {
+    position: absolute;
+    right: .6rem;
+    top: 0;
+    width: .28rem;
+    height: .28rem;
+    text-align: center;
+    line-height: .28rem;
+    font-size: .18rem;
+    color: #fff;
+    border-radius: 50%;
+    background: #95262C;
+  }
+  #detail_btns #add2cart {
+    width: 2.42rem;
+    height: .8rem;
+    color: white;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .8rem;
+  }
+  #detail_btns #buy {
+    background: #727071;
+    width: 2.42rem;
+    height: .80rem;
+    color: white;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .80rem;
+  }
+  #detail_btns .able {
+    background-color: #95242a;
+  
+  }
